@@ -13,7 +13,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 40px;
     background-color: #fff;
     border-bottom: 2px solid #c6c6c6;
 }
@@ -32,6 +32,7 @@ header {
 /***POST***/
 .post {
     background-color: #fff;
+    padding-bottom: 40px;
 }
 
 /**POST HEADER**/
@@ -39,28 +40,41 @@ header {
     display: flex;
     justify-content: start;
     align-items: center;
+    padding: 20px;
 }
 
+/*CREATORS INFO*/
 .creator-avatar {
     width: 10%;
     border-radius: 50%;
+    padding-right: 15px;
+}
+
+.creator-info {
+    font-size: 20px;
+    margin: 0;
 }
 
 .creator-name {
-    font-size: 20px;
     font-weight: bold;
 }
 
-.creator-location {
-    font-size: 20px;
-}
-
 /**POST IMAGE**/
-.post-image {
+.post-img {
     width: 100%;
 }
 
-/**SOCIAL INTERACTIONS**/
+/**POST FOOTER**/
+.post-footer {
+    padding: 20px;
+}
+
+/*SOCIAL INTERACTIONS*/
+.interactions {
+    display: flex;
+    gap: 20px;
+}
+
 .interactions img {
     width: 40px;
 }
