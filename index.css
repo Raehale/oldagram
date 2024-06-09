@@ -1,5 +1,66 @@
 html, body {
-    margin: 0;
     padding: 0;
 }
 
+body {
+    background-color: #ededed;
+    width: 720px;
+    margin: 0 auto;
+}
+
+/***HEADER***/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #c6c6c6;
+}
+
+/**LOGO**/
+.site-logo {
+    width: 30%;
+}
+
+/**CURRENT USER ICON***/
+.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+/***POST***/
+.post {
+    background-color: #fff;
+}
+
+/**POST HEADER**/
+.post-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.creator-avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.creator-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.creator-location {
+    font-size: 20px;
+}
+
+/**POST IMAGE**/
+.post-image {
+    width: 100%;
+}
+
+/**SOCIAL INTERACTIONS**/
+.interactions img {
+    width: 40px;
+}
