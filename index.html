@@ -1,9 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <title>Oldagram</title>
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <img src="images/logo.png">
+        <header>
+            <img src="./images/logo.png" alt="Oldagram written in black cursive" class="site-logo" />
+            <img src="./images/user-avatar.png" alt="users avatar" class="avatar" />
+        </header>
+        <main>
+            <article class="post">
+                <div class="post-header">
+                    <img src="./images/avatar.vangogh.jpg" alt="post creators avatar" />
+                    <section class="creator-info">
+                        <h2 class="creator-name">
+                            Vincent Van Gogh
+                        </h2>
+                        <h3 class="creator-location">
+                            Zudert, Netherlands
+                        </h3>
+                    </section>
+                </div>
+                <img src="./images/post-vangogh.jpg" />
+                <section class="interactions">
+                    <img src="./images/icon-heart.png" alt="black outline of a heart shape" id="liked" />
+                    <img src="./images/icon-comment.png" alt="black outline of a comment bubble" id="comment" />
+                    <img src="./images/icon-dm.png" alt="black outline of a paper airplane" id="send" />
+                </section>
+                <strong class="total-likes">
+                    0 likes
+                </strong>
+                <section class="post-comment">
+                    <strong>vincey1853</strong> just took a few mushrooms lol
+                </section>
+            </article>
+        </main>
         <script src="index.js"></script>
     </body>
 </html>
