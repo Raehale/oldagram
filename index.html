@@ -3,6 +3,8 @@
     <head>
         <title>Oldagram</title>
         <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
         <header>
@@ -10,34 +12,9 @@
             <img src="./images/user-avatar.png" alt="users avatar" class="avatar" />
         </header>
         <main>
-            <article class="post">
-                <div class="post-header">
-                    <img src="./images/avatar-vangogh.jpg" alt="post creators avatar" class="creator-avatar" />
-                    <section class="creator-info">
-                        <h2 class="creator-name">
-                            Vincent Van Gogh
-                        </h2>
-                        <h3 class="creator-location">
-                            Zudert, Netherlands
-                        </h3>
-                    </section>
-                </div>
-                <img src="./images/post-vangogh.jpg" class="post-img" alt="users posted image" />
-                <div class="post-footer">
-                    <div class="interactions">
-                        <img src="./images/icon-heart.png" alt="black outline of a heart shape" id="liked" />
-                        <img src="./images/icon-comment.png" alt="black outline of a comment bubble" id="comment" />
-                        <img src="./images/icon-dm.png" alt="black outline of a paper airplane" id="send" />
-                    </div>
-                    <strong class="total-likes">
-                        0 likes
-                    </strong>
-                    <div class="post-comment">
-                        <strong>vincey1853</strong> just took a few mushrooms lol
-                    </div>
-                </div>
-            </article>
+            <div class="posts" id="posts">
+            </div>
         </main>
-        <script src="index.js"></script>
+        <script src="index.js" type="module"></script>
     </body>
 </html>

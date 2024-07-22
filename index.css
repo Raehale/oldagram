@@ -4,8 +4,9 @@ html, body {
 
 body {
     background-color: #ededed;
-    width: 720px;
+    width: 500px;
     margin: 0 auto;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 /***HEADER***/
@@ -32,7 +33,7 @@ header {
 /***POST***/
 .post {
     background-color: #fff;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 /**POST HEADER**/
@@ -44,19 +45,24 @@ header {
 }
 
 /*CREATORS INFO*/
-.creator-avatar {
-    width: 10%;
+.post-avatar {
     border-radius: 50%;
-    padding-right: 15px;
+    width: 10%;
 }
 
-.creator-info {
+.post-info {
     font-size: 20px;
+    padding-left: 15px;
+}
+
+.post-name {
+    font-weight: bold;
     margin: 0;
 }
 
-.creator-name {
-    font-weight: bold;
+.post-location {
+    margin: 0;
+    font-weight: 400;
 }
 
 /**POST IMAGE**/
@@ -67,14 +73,26 @@ header {
 /**POST FOOTER**/
 .post-footer {
     padding: 20px;
+    font-size: 20px;
 }
 
 /*SOCIAL INTERACTIONS*/
 .interactions {
     display: flex;
     gap: 20px;
+    padding-bottom: 20px;
+}
+
+.interactions button {
+    background: transparent;
+    border: none;
 }
 
 .interactions img {
     width: 40px;
+}
+
+.interactions button:hover {
+    opacity: .5;
+    cursor: pointer;
 }
